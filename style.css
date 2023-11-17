@@ -1,0 +1,221 @@
+:root {
+    --fonte-titulo: 'Fira Sans', sans-serif;
+    --fonte-texto: 'Noto Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #2F3031;
+}
+
+header {
+    background-color: #000000;
+}
+
+.linha-laranja{
+    background-color: #D88634;
+    height: 2px;
+}
+
+.menu {
+    width: 80%;
+    margin: 0 auto;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logomarca {
+    width: 150px;
+}
+
+.lista-menu {
+    list-style: none;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.item-nav a {
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+
+    color: #D88634;
+}
+
+
+
+.painel-historia{
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 61px;
+}
+
+.historia-texto{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 40px;
+    font-weight: 800;
+    color: #D88634;
+}
+
+.descricao{
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+    font-weight: 500;
+    color: #E4E4E4;
+    line-height: 25px;
+}
+
+.historia-imagem{
+    width: 50%;
+}
+
+.historia-imagem img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #00000050;
+}
+
+.painel-local{
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px;
+    gap: 85px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.local-imagem{
+    width: 50%;
+}
+
+.local-imagem img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #00000050;
+}
+
+.local-texto{
+    width: 50%;
+    gap: 30px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.painel-cardapio{
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardapio-opcoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+}
+
+.cardapio-item{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.opcao{
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 24px;
+    color: #D88634;
+}
+
+.opcao-select{
+    border-style: solid;
+    border-radius: 50px;
+    padding: 10px 40px;
+}
+
+.Cardapio-burguers{
+    margin-top: 65PX;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Burguers-direita{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+}
+
+.Burguers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.Burguer-img{
+    border-radius: 10px;
+}
+
+.titulo-burguer{
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 24px;
+    color: #D88634;
+}
+
+.descricao-burguer{
+    font-family: var(--fonte-texto);
+    font-weight: 500;
+    font-size: 18px;
+    color: #E4E4E4;
+    text-align: center;
+}
+
+.preco-burguers{
+    font-family: var(--fonte-texto);
+    font-weight: 700;
+    font-size: 30px;
+    color: #B22222;
+}
