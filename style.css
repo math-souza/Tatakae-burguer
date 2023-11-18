@@ -18,11 +18,7 @@ body{
 
 header {
     background-color: #000000;
-}
-
-.linha-laranja{
-    background-color: #D88634;
-    height: 2px;
+    border-bottom: 2px solid #D88634;
 }
 
 .menu {
@@ -57,8 +53,6 @@ header {
 
     color: #D88634;
 }
-
-
 
 .painel-historia{
     width: 80%;
@@ -142,6 +136,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 60px;
 }
 
 .cardapio-opcoes{
@@ -171,19 +166,16 @@ header {
 }
 
 .Cardapio-burguers{
-    margin-top: 65PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 70px;
+}
 
+.Burguers-line{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.Burguers-direita{
-    width: 50%;
-
-    display: flex;
-    flex-direction: column;
-    gap: 70px;
     align-items: center;
 }
 
@@ -192,10 +184,13 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 25px;
+
+    width: 50%;
 }
 
 .Burguer-img{
-    border-radius: 10px;
+    width: 80%;
+    height: 320px;
 }
 
 .titulo-burguer{
@@ -219,3 +214,29 @@ header {
     font-size: 30px;
     color: #B22222;
 }
+
+.Burguers-direita{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+}
+
+.bt-pedido{
+    margin-top: 50px;
+    width: 310px;
+    height: 50px;
+
+    border-radius: 30px;
+    border-color: #D88634;
+
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 24px;
+
+    color: #D88634;
+    background-color: #2F3031;
+}
+
