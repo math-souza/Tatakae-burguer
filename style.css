@@ -257,14 +257,22 @@ header {
     transition: 200ms linear;
 }
 
-.rodape{
-    margin-top: 50px;
-    padding-top: 46px;
-    padding-bottom: 30px;
-    padding-left: 10%;
-    padding-right: 10%;
 
+footer{
     background-color: #000000;
+    border-top: 2px solid #D88634;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rodape{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 80%;
+
 
     display: flex;
     flex-direction: row;
@@ -282,7 +290,7 @@ header {
 }
 
 .redes{
-    width: 440px;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -312,4 +320,123 @@ footer div h3{
     font-family: var(--fonte-texto);
     font-size: 20px;
     font-weight: 200;
+}
+
+@media (max-width: 1228px){
+    .Burguer-img{
+        height: 200px;        
+    } 
+
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 2px;
+    }
+
+    .rodape-social{
+        width: 33%;
+        
+    }
+
+    .rodape-localizacao{
+        width: 33%;
+
+        text-align: center;
+    }
+}
+
+@media (max-width: 962px){
+    .titulo-burguer{
+        text-align: center;
+    }
+}
+
+@media (max-width: 908px){
+    .Burguer-img{
+        height: 150px;
+    }
+
+    .item-nav a {
+        font-size: 22px;
+    }
+
+    .logomarca{
+        width: 150px;
+    }
+
+    .bt-pedido{
+        width: 280px;
+        height: 45px;
+
+        font-size: 22px;
+    }
+
+    .Burguers-line{
+        gap: 180px;
+    }
+
+    .titulo-burguer{
+        font-size: 22px;
+    }
+
+    .rodape-localizacao{
+        gap: 25px;
+    }
+
+    .rodape-social{
+        gap: 25px;
+    }
+}
+
+@media (max-width: 835px){
+    .item-nav a{
+        font-size: 20px;
+    }
+
+    .painel-historia{
+        flex-direction: column-reverse;
+        padding-bottom: 35px;
+    }
+
+    .historia-texto{
+        width: 100%;
+        text-align: center;
+    }
+
+    .historia-imagem{
+        width: 70%;
+    }
+
+    .painel-local{
+        flex-direction: column;
+        padding-top: 35px;
+        gap: 50px;
+    }
+
+    .local-texto{
+        width: 100%;
+        text-align: center;
+    }
+
+    .local-imagem{
+        width: 70%;
+    }
+
+    .Burguers-line{
+        gap: 125px;
+    }
+
+    footer div h2{
+        font-size: 20px;
+    }
+
+    footer div h3{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px){
+
 }
