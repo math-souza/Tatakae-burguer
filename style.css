@@ -10,6 +10,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -437,6 +438,97 @@ footer div h3{
     }
 }
 
-@media (max-width: 700px){
+@media (max-width: 804px){
+    .Burguers-line{
+        gap: 100px;
+    }
+}
 
+@media (max-width: 798px){
+    .Cardapio-burguers{
+        gap: 50px;
+    }
+    
+    .Burguers-line{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .Burguers{
+        width: 100%;
+        gap: 15px;
+    }
+
+    .Burguer-img{
+        width: 40%;
+    }
+}
+
+@media (max-width: 798px){
+    footer div h2{
+        text-align: center;
+    }
+}
+
+@media (max-width: 685px){
+    .titulo{
+        font-size: 34px;
+    }
+    
+    .opcao{
+        font-size: 22px;
+    }
+    
+    .preco-burguers{
+        font-size: 26px;
+    }
+
+    .rodape{
+        gap: 10px;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+}
+
+@media (max-width: 658px){
+    footer div h2{
+        font-size: 18px;
+    }
+    
+    footer div h3{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px){
+    .logomarca{
+        width: 100px;
+    }
+}
+
+@media (max-width: 500px){
+    .item-nav a{
+        font-size: 18px;
+    }
+
+    .cardapio-item{
+        gap: 30px;
+    }
+
+    .Burguer-img{
+        height: 100px;
+    }
+
+    .bt-pedido{
+        font-size: 20px;
+
+        width: 225px;
+        height: 40px;
+    }
 }
