@@ -462,6 +462,18 @@ footer div h3{
     .Burguer-img{
         width: 40%;
     }
+
+    .painel-historia{
+        padding: 70px 0;
+    }
+
+    .painel-local{
+        padding: 20px 0;
+    }
+
+    .cardapio-opcoes{
+        gap: 25px;
+    }
 }
 
 @media (max-width: 798px){
@@ -503,6 +515,9 @@ footer div h3{
     
     footer div h3{
         font-size: 16px;
+    }
+    .cardapio-item{
+        gap: 50px;
     }
 }
 
