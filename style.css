@@ -529,7 +529,15 @@ footer div h3{
 
 @media (max-width: 500px){
     .item-nav a{
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .menu{
+        gap: 10px;
+    }
+
+    .lista-menu{
+        gap: 10px;
     }
 
     .cardapio-item{
